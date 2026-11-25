@@ -68,21 +68,3 @@ The single push button supports **Short Press** (switch screens) and **Long Pres
 4. Open `_desk_buddy_code/_desk_buddy_code.ino`.
 5. Select your board (`Arduino Nano`) and processor (`ATmega328P` or `ATmega328P (Old Bootloader)`).
 6. Select your COM port and click **Upload**.
-
----
-
-## 📄 Customization
-
-To personalize the companion name:
-Open `_desk_buddy_code.ino` and edit line 31:
-```cpp
-// ====== CHANGE YOUR NAME HERE ======
-const char MY_NAME[] = "Vishnu";
-// ===================================
-```
-
----
-
-## 📜 License
-
-This project is open-source under the MIT License.
